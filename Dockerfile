@@ -1,10 +1,5 @@
 FROM ubuntu:16.04
 
-ENV NODE_VERSION 8.10.0
-ENV PHP_VERSION 7.2.3
-
-WORKDIR ~
-
 # Update
 RUN apt-get update && \
     apt-get dist-upgrade -y
