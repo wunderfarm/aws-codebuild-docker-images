@@ -9,7 +9,12 @@ RUN apt-get install -y \
     curl \
     python \
     g++ \
-    make
+    make \
+    libpng-dev \
+    autoconf \
+    automake \
+    libtool \
+    nasm
 
 # Install PHP
 RUN apt-get install -y \
