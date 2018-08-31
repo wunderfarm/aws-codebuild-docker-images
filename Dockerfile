@@ -14,7 +14,9 @@ RUN apt-get install -y \
     autoconf \
     automake \
     libtool \
-    nasm
+    nasm \
+    build-essential \
+    pkg-config
 
 # Install PHP
 RUN apt-get install -y \
